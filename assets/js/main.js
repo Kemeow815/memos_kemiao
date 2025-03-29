@@ -4,14 +4,14 @@
 
 // Memos Start
 var memo = {
-    host: 'https://demo.usememos.com/',
+    host: 'https://s.dusays.com/',
     limit: '10',
-    creatorId: '101',
+    creatorId: '190',
     domId: '#memos',
-    username: 'Admin',
-    name: 'Administrator',
-    APIVersion: 'new',
-    language: 'en',
+    username: 'kemiao',
+    name: '克喵爱吃卤面',
+    APIVersion: 'lagacy',
+    language: 'zh-CN',
     total: true,
     doubanAPI: '',
 }
