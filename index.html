@@ -61,11 +61,16 @@
 	</footer>
 
 	<!-- Your Memos API -->
-	<script type="text/javascript">
+	<link href="https://cdn.jsdelivr.net/npm/penndu@17.0.0/memos/css/style.css" rel="stylesheet" type="text/css">
+	<link href="https://cdn.jsdelivr.net/npm/penndu@17.0.0/memos/css/highlight.github.min.css" rel="stylesheet" type="text/css">
+	<section id="main" class="container">
+    	<div class="total">总计 <span id="total">0</span> 条说说</div>
+    	<div id="memos" class="memos"></div>
+		</section>
 		var memos = {
 			host: 'https://s.dusays.com/',  // Your Memos instance.
 			limit: '10',	// Pagination to show.
-			creatorId: '190',  // The old instance is 101, and the new instance is 1. 
+			creatorId: '190', // The old instance is 101, 和 the new instance is 1. 
 			domId: '#memos',	// Default #memos.
 			username: 'Ke Miao',	// You can customize the display ID that is not related to memos.
 			name: '克喵爱吃卤面',	// You can customize the displayed full name, that is not related to memos.
@@ -76,12 +81,13 @@
 		}
 
 	</script>
-	<script type="text/javascript" src="assets/js/marked.umd.min.js?v=14.0.0"></script>
-	<script type="text/javascript" src="assets/js/view-image.min.js"></script>
-	<script type="text/javascript" src="assets/js/APlayer.min.js"></script>
-	<script type="text/javascript" src="assets/js/Meting.min.js"></script>
-	<script type="text/javascript" src="assets/js/main.js"></script>
-	<script type="text/javascript" src="assets/js/custom.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/penndu@17.0.0/memos/js/lazyload.min.js?v=17.8.3"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/penndu@17.0.0/memos/js/marked.min.js?v=11.1.1"></script>    
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/penndu@17.0.0/memos/js/view-image.min.js?v=2.0.2"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/penndu@17.0.0/memos/js/moment.min.js?v=2.30.1"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/penndu@17.0.0/memos/js/moment.twitter.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/penndu@17.0.0/memos/js/highlight.min.js?v=11.9.0"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/penndu@17.0.0/memos/js/main.js"></script>
 </body>
 
 </html>
